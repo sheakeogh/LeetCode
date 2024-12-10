@@ -2,6 +2,12 @@ package ArrayString;
 
 public class GreatestCommonDivisorOfStrings {
 
+    /**
+     *
+     * @param str1 String
+     * @param str2 String
+     * @return the largest string x such that x divides both str1 and str2
+     */
     public static String gcdOfStrings(String str1, String str2) {
         if (!(str1 + str2).equals(str2 + str1)) {
             return "";

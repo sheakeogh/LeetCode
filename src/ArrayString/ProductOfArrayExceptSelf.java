@@ -4,6 +4,11 @@ import java.util.Arrays;
 
 public class ProductOfArrayExceptSelf {
 
+    /**
+     *
+     * @param nums integer array
+     * @return Array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+     */
     public static int[] productExceptSelf(int[] nums) {
         int[] prefixProduct = new int[nums.length];
         int[] suffixProduct = new int[nums.length];

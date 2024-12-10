@@ -2,6 +2,12 @@ package ArrayString;
 
 public class MergeStringsAlternately {
 
+    /**
+     *
+     * @param word1 String
+     * @param word2 String
+     * @return Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string
+     */
     public static String mergeAlternately(String word1, String word2) {
         String newWord = "";
         int smallerLength = Math.min(word1.length(), word2.length());

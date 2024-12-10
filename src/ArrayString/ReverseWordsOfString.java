@@ -2,6 +2,11 @@ package ArrayString;
 
 public class ReverseWordsOfString {
 
+    /**
+     *
+     * @param s String
+     * @return A string of the words in reverse order concatenated by a single space.
+     */
     public static String reverseWords(String s) {
         String newS = "";
         String[] arr = s.split("\\s+");

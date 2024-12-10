@@ -5,6 +5,11 @@ import java.util.List;
 
 public class ReverseVowelsOfString {
 
+    /**
+     *
+     * @param s String
+     * @return reverse only all the vowels in the string and return it.
+     */
     public static String reverseVowels(String s) {
         char[] newS = s.toCharArray();
         List<Integer> arrIndex = new ArrayList<>();

@@ -2,6 +2,11 @@ package ArrayString;
 
 public class IncreasingTripletSubsequence {
 
+    /**
+     *
+     * @param nums integer array
+     * @return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]
+     */
     public static boolean increasingTriplet(int[] nums) {
         int min = Integer.MAX_VALUE;
         int mid = Integer.MAX_VALUE;

@@ -2,6 +2,11 @@ package ArrayString;
 
 public class StringCompression {
 
+    /**
+     *
+     * @param chars an array of characters
+     * @return length of array where the character is present followed by the group's length if it is greater than 1, otherwise show only the character
+     */
     public static int compress(char[] chars) {
         int i = 0;
 
