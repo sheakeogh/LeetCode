@@ -12,3 +12,10 @@ This repository contains solutions to LeetCode problems. The solutions are organ
 - 238: Product of Array Except Self (Medium)
 - 334: Increasing Triplet Subsequence (Medium)
 - 443: String Compression (Medium)
+
+
+## Two Pointers
+- 283: Move Zeroes (Easy)
+- 392: Is Subsequence (Easy)
+- 11: Container With Most Water (Medium)
+- 1679: Max Number of K-Sum Pairs (Medium)
