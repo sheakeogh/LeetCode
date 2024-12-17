@@ -19,3 +19,9 @@ This repository contains solutions to LeetCode problems. The solutions are organ
 - 392: Is Subsequence (Easy)
 - 11: Container With Most Water (Medium)
 - 1679: Max Number of K-Sum Pairs (Medium)
+
+## Sliding Window
+- 643: Maximum Average Subarray I (Easy)
+- 1456: Maximum Number of Vowels ina Substring (Medium)
+- 1004: Max Consecutive Ones III (Medium)
+- 1493: Longest Subarray of 1's After Deleting One Element (Medium)
