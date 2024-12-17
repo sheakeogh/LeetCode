@@ -25,3 +25,7 @@ This repository contains solutions to LeetCode problems. The solutions are organ
 - 1456: Maximum Number of Vowels ina Substring (Medium)
 - 1004: Max Consecutive Ones III (Medium)
 - 1493: Longest Subarray of 1's After Deleting One Element (Medium)
+
+## Prefix Sum
+- 1732: Find the Highest Altitude (Easy)
+- 724: Find Pivot Index (Easy)
