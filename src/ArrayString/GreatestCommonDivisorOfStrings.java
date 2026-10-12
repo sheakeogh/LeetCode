@@ -2,22 +2,16 @@ package ArrayString;
 
 public class GreatestCommonDivisorOfStrings {
 
-    /**
-     *
-     * @param str1 String
-     * @param str2 String
-     * @return the largest string x such that x divides both str1 and str2
-     */
     public static String gcdOfStrings(String str1, String str2) {
-        if (!(str1 + str2).equals(str2 + str1)) {
-            return "";
+        if ((str1 + str2).equals(str2 + str1)) {
+            return str1.substring(0, findGcd(str1.length(), str2.length()));
         }
 
-        return str1.substring(0, gcd(str1.length(), str2.length()));
+        return "";
     }
 
-    private static int gcd(int str1Length, int str2Length) {
-        return str2Length == 0 ? str1Length : gcd(str2Length, (str1Length % str2Length));
+    private static int findGcd(int lengthStr1, int lengthStr2) {
+        return lengthStr2 == 0 ? lengthStr1 : findGcd(lengthStr2, lengthStr1 % lengthStr2);
     }
 
     public static void main(String[] args) {
